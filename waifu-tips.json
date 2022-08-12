@@ -33,16 +33,16 @@
 		"selector": ".menu-item:nth-child(2)",
 		"text": ["点击就可以看文章的标签啦！", "点击来查看所有标签哦。"]
 	}, {
-		"selector": ".menu-item:nth-child(2)",
+		"selector": ".menu-item:nth-child(3)",
 		"text": ["文章都分类好啦～", "点击来查看文章分类哦。"]
 	}, {
-		"selector": ".menu-item:nth-child(3)",
+		"selector": ".menu-item:nth-child(1)",
 		"text": ["翻页比较麻烦吗，那就来看看文章归档吧。", "文章目录都整理在这里啦！"]
 	}, {
 		"selector": ".menu-item-friends a",
 		"text": ["这是我的朋友们哦ヾ(◍°∇°◍)ﾉﾞ", "要去大佬们的家看看吗？", "要去拜访一下我的朋友们吗？"]
 	}, {
-		"selector": "[class~=search]",
+		"selector": "[class~=search] *",
 		"text": ["找不到想看的内容？搜索看看吧！", "在找什么东西呢，需要帮忙吗？"]
 	}, {
 		"selector": ".menu-item a",
@@ -57,7 +57,7 @@
 		"selector": ".fa-rss",
 		"text": ["这里可以使用 RSS 订阅呢！", "利用 feed 订阅器，就能快速知道博客有没有更新了呢。"]
 	}, {
-		"selector": ".license",
+		"selector": ".license *",
 		"text": ["要记得规范转载哦。", "所有文章均采用 CC BY-NC-SA 4.0 许可协议～", "转载前要先注意下文章的版权协议呢。"]
 	}, {
 		"selector": ".links-of-author",
@@ -72,10 +72,10 @@
 		"selector": ".copy-btn",
 		"text": ["代码可以直接点击复制哟。"]
 	}, {
-		"selector": ".highlight .table-container, .gist",
+		"selector": ".fa-github",
 		"text": ["GitHub！我是新手！", "PHP 是最好的语言！"]
 	}, {
-		"selector": "a[href^='mailto']",
+		"selector": ".fa-envelope",
 		"text": ["邮件我会及时回复的！", "点击就可以发送邮件啦～"]
 	}, {
 		"selector": "a[href^='/tags/']",
@@ -99,7 +99,7 @@
 		"selector": ".container a[href^='http'], .nav-link .nav-text",
 		"text": ["要去看看 <span>{text}</span> 么？", "去 <span>{text}</span> 逛逛吧。", "到 <span>{text}</span> 看看吧。"]
 	}, {
-		"selector": ".back-to-top",
+		"selector": "#back-to-top",
 		"text": ["点它就可以回到顶部啦！", "又回到最初的起点～", "要回到开始的地方么？"]
 	}, {
 		"selector": ".reward-container",
@@ -117,7 +117,7 @@
 		"selector": "#needsharebutton-postbottom .btn",
 		"text": ["好东西要让更多人知道才行哦。", "觉得文章有帮助的话，可以分享给更多需要的朋友呢。"]
 	}, {
-		"selector": ".need-share-button_weibo",
+		"selector": ".fa-weibo",
 		"text": ["微博？来分享一波喵！"]
 	}, {
 		"selector": ".need-share-button_wechat",
@@ -129,10 +129,10 @@
 		"selector": ".need-share-button_qqzone",
 		"text": ["QQ 空间，一键转发，耶～"]
 	}, {
-		"selector": ".need-share-button_twitter",
+		"selector": ".fa-twitter",
 		"text": ["Twitter？好像是不存在的东西？"]
 	}, {
-		"selector": ".need-share-button_facebook",
+		"selector": ".fa-facebook-square",
 		"text": ["emmm…FB 好像也是不存在的东西？"]
 	}, {
 		"selector": ".post-nav-item a[rel='next']",
