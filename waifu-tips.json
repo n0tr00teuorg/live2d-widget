@@ -27,16 +27,16 @@
 		"selector": ".header-title a",
 		"text": ["点击前往首页，想回到上一页可以使用浏览器的后退功能哦。", "点它就可以回到首页啦！", "回首页看看吧。"]
 	}, {
-		"selector": ".menu-item:nth-child(4)",
+		"selector": ".menu-item .fa-user-tie",
 		"text": ["你想知道我家主人是谁吗？", "这里有一些关于我家主人的秘密哦，要不要看看呢？", "发现主人出没地点！"]
 	}, {
-		"selector": ".menu-item:nth-child(2)",
+		"selector": ".menu-item .fa-tags",
 		"text": ["点击就可以看文章的标签啦！", "点击来查看所有标签哦。"]
 	}, {
-		"selector": ".menu-item:nth-child(3)",
+		"selector": ".menu-item .fa-th",
 		"text": ["文章都分类好啦～", "点击来查看文章分类哦。"]
 	}, {
-		"selector": ".menu-item:nth-child(1)",
+		"selector": ".menu-item .fa-archive",
 		"text": ["翻页比较麻烦吗，那就来看看文章归档吧。", "文章目录都整理在这里啦！"]
 	}, {
 		"selector": ".menu-item-friends a",
